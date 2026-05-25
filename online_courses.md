@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "System programming courses"
+title: "System Programming Courses"
 permalink: /online-courses/
 ---
 

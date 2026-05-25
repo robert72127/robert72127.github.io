@@ -3,10 +3,11 @@ title: Robert Orlikowski
 description:
 
 github_url: "https://github.com/robert72127"
+linkedin_url: "https://www.linkedin.com/in/rorlikowski"
 contact_email: "robert.piotr.orlikowski@gmail.com"
 
 header_pages:
-  - index.md
+  - about.md
   - cv.md
   - projects.md
   - online_courses.md

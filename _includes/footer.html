@@ -11,6 +11,12 @@
         <p>
           <a href="{{ site.github_url }}">GitHub</a>
           |
+          {% if site.linkedin_url and site.linkedin_url != "" %}
+          <a href="{{ site.linkedin_url }}">LinkedIn</a>
+          {% else %}
+          <span>LinkedIn</span>
+          {% endif %}
+          |
           <a href="mailto:{{ site.contact_email }}">Email</a>
         </p>
       </div>

@@ -29,31 +29,19 @@ Companion book: *Computer Systems: A Programmer's Perspective* [link](https://ww
 
 Another useful companion resource is the Illinois CS 241 system programming coursebook [link](https://raw.githubusercontent.com/illinois-cs241/coursebook/pdf_deploy/main.pdf). It explains many core systems topics in a very approachable way.
 
-## Parallel programming
+## Computer networks
 
-### 15-418 / 15-618: Parallel Computer Architecture and Programming
+### Beej's Guide to Networking Concepts [link](https://beej.us/guide/bgnet0/)
 
-Excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
+Very accessible introduction to networking ideas if you do not yet have a strong intuition for protocols, addressing, and how machines talk to each other.
 
-Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start. GitHub mirrors sometimes also preserve assignment material when the main course page changes.
+### Beej's Guide to Network Programming [link](https://beej.us/guide/bgnet/)
 
-## Operating systems implementation
+One of the best practical introductions to socket programming. It helps bridge the gap between networking theory and writing real networked programs in C.
 
-### NYCU Operating System Capstone
+Recommended companion textbook: *Computer Networking: A Top-Down Approach* [link](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
-Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. The labs focus on building a small operating system, which makes this course very valuable if you want hands on OS experience rather than theory alone.
-
-Useful companion resources:
-
-Arm peripherals reference [link](https://cs140e.sergio.bz/docs/BCM2837-ARM-Peripherals.pdf)
-
-Bare-metal Raspberry Pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tutorial/tree/master)
-
-## Distributed systems
-
-### MIT 6.824: Distributed Systems [link](http://nil.csail.mit.edu/6.824/2022/)
-
-One of the most famous distributed systems courses for good reason. The lectures are strong, and the labs are even better: you implement the Raft consensus protocol and then build higher-level systems on top of it, including key-value storage.
+A good starter project after this material is a simple web server in C or C++, beginning with raw TCP sockets and working up to basic HTTP static file serving.
 
 ## Database systems
 
@@ -79,19 +67,31 @@ This book is the best practical resource I would point people to first. Its stre
 
 For language context, here is the Xi language handout that inspired the compiler course I took [link](https://www.cs.cornell.edu/courses/cs4120/2011fa/handouts/language.pdf).
 
-## Computer networks
+## Operating systems implementation
 
-### Beej's Guide to Networking Concepts [link](https://beej.us/guide/bgnet0/)
+### NYCU Operating System Capstone
 
-Very accessible introduction to networking ideas if you do not yet have a strong intuition for protocols, addressing, and how machines talk to each other.
+Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. The labs focus on building a small operating system, which makes this course very valuable if you want hands on OS experience rather than theory alone.
 
-### Beej's Guide to Network Programming [link](https://beej.us/guide/bgnet/)
+Useful companion resources:
 
-One of the best practical introductions to socket programming. It helps bridge the gap between networking theory and writing real networked programs in C.
+Arm peripherals reference [link](https://cs140e.sergio.bz/docs/BCM2837-ARM-Peripherals.pdf)
 
-Recommended companion textbook: *Computer Networking: A Top-Down Approach* [link](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+Bare-metal Raspberry Pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tutorial/tree/master)
 
-A good starter project after this material is a simple web server in C or C++, beginning with raw TCP sockets and working up to basic HTTP static file serving.
+## Parallel programming
+
+### 15-418 / 15-618: Parallel Computer Architecture and Programming
+
+Excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
+
+Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start. GitHub mirrors sometimes also preserve assignment material when the main course page changes.
+
+## Distributed systems
+
+### MIT 6.824: Distributed Systems [link](http://nil.csail.mit.edu/6.824/2022/)
+
+One of the most famous distributed systems courses for good reason. The lectures are strong, and the labs are even better: you implement the Raft consensus protocol and then build higher-level systems on top of it, including key-value storage.
 
 ## Deep learning systems
 

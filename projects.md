@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Projects"
-author: "Robert"
 permalink: /projects/
 ---
 

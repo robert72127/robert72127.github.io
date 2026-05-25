@@ -2,147 +2,131 @@
 layout: post
 title: "Online courses"
 author: "Robert"
-permalink: /books/
+permalink: /online-courses/
 ---
 
+I care a lot about open education. This page collects online courses and companion resources that I think are especially useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
 
-I am big believer in open education
-here are list of courses online that I did, I think are very good and will broaden your horizons in given subjects.
-From my & collegues experience it's generally better to pick courses at your uni, 
-hovewer many universities don't focus that much on system programming and don't offer such courses
-or if you are from non traditional background
+In general, if your university offers a good version of these subjects, take it. You will usually get better feedback, structure, and accountability. But many schools do not put much emphasis on systems programming, operating systems, databases, compilers, or performance engineering. For that case, the resources below are very good substitutes.
 
-# Linux & beginner tooling:
-The Missing Semester of Your CS Education
-https://missing.csail.mit.edu//
+## Linux and beginner tooling
 
-teaches you how to use tooling that will make you more productinve & you will find usefull in your everyday tasks as programmer
+### The Missing Semester of Your CS Education [link](https://missing.csail.mit.edu/)
 
-# Computer Architecture:
+A great starting point if you are early in your programming journey. It teaches the practical tools that make everyday work on Unix-like systems much easier: shell usage, editors, version control, debugging, data wrangling, and automation.
 
-15-213/14-513/15-513: Introduction to Computer Systems
+## Computer architecture and systems
 
-https://www.cs.cmu.edu/~213/
+### 15-213 / 14-513 / 15-513: Introduction to Computer Systems [link](https://www.cs.cmu.edu/~213/)
 
-Intensive introduction to computer systems
+One of the best entry points into systems programming. It covers the stack from machine representation and assembly to memory, linking, performance, and user-space Unix programming. If you only take one serious systems course, this is a very strong choice.
 
-teaches you stuff from assembly to user space linux programming,
+Course labs: [link](https://csapp.cs.cmu.edu/3e/labs.html)
 
-labs can be found at 
-https://csapp.cs.cmu.edu/3e/labs.html
+For lectures, archived course pages are often the easiest route. If the main page does not expose a full past offering directly, check the Web Archive for a recent year such as 2023. Some lecture materials and mirrors also show up on GitHub.
 
-and lectures are accessible via web archive (for example 2023 edition), they probably also can be found on github
+Companion book: *Computer Systems: A Programmer's Perspective* [link](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X)
 
+Another useful companion resource is the Illinois CS 241 system programming coursebook [link](https://raw.githubusercontent.com/illinois-cs241/coursebook/pdf_deploy/main.pdf), which explains many core systems topics in a very approachable way.
 
-there is also very good acommpanion book that i highly recommend buying
-Computer Systems: A Programmer's Perspective
-https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X
+## Parallel programming
 
-Another cool book explaining the topics of system programming by students from university of Illinois, can be found at (link)[https://raw.githubusercontent.com/illinois-cs241/coursebook/pdf_deploy/main.pdf]
+### 15-418 / 15-618: Parallel Computer Architecture and Programming
 
- # Parallel Programming
+An excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
 
-15-418/15-618: Parallel Computer Architecture and Programming
+Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start, GitHub mirrors sometimes preserve assignment material when the main course page changes.
 
-slides and labs can be accesed via web archive, for example 2023 edition, they probably also can be found on github
+## Operating systems implementation
 
-Theaches you concepts like simd, mpi, programming cuda
+### NYCU Operating System Capstone
 
-## Operating Systems implementation:
+Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. Labs focus on building a small operating system, which makes it valuable if you want hands-on OS experience rather than theory alone.
 
-* nycu Operating System Capstone
+Useful companion resources:
 
-Operating systems are very important subject in CS & CE, there are lectures on this subject available from many unis online, but most of them don't have labs accesible for people outside.
+Arm peripherals reference [link](https://cs140e.sergio.bz/docs/BCM2837-ARM-Peripherals.pdf)
 
-Labs focuses on building small operating system, very cool
+Bare-metal Raspberry Pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tutorial/tree/master)
 
-If you decide to pursue this course, here are usefull additional resources:
-Arm peripherals[link](https://cs140e.sergio.bz/docs/BCM2837-ARM-Peripherals.pdf)
-Bare metal raspberry pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tutorial/tree/master)
+## Distributed systems
 
-# Distributed systems:
+### MIT 6.824: Distributed Systems [link](http://nil.csail.mit.edu/6.824/2022/)
 
-* MIT 6.824: Distributed Systems
+One of the most famous distributed systems courses for good reason. The lectures are strong, and the labs are even better: you implement the Raft consensus protocol and then build higher-level systems on top of it, including key-value storage.
 
-nice lectures, can be found on youtube, publicly available labs where you implement raft consesus protocol and later build K/V storage on top of that
+This course gives you real exposure to the kind of failure modes and design tradeoffs that define distributed systems work.
 
-http://nil.csail.mit.edu/6.824/2022/
+## Database systems
 
-# Database Systems
+### CMU 15-445 / 15-645: Database Systems [link](https://15445.courses.cs.cmu.edu/)
 
-The GOAT of database courses, it's also excellent pick for one of few first system programming courses you might want to take after you already finish introduction to computer systems (link)[https://www.cs.cmu.edu/~213/]
+This is one of the best systems courses available online and a very good next step after an introductory computer systems course. You work on BusTub, an educational database system, and implement core pieces of a real database engine.
 
-You will work on existing system called bustub, there you will implement core parts of database engine
-Submission is also available for people outside of CMU which is really nice.
+The course is especially valuable because it combines strong lectures, very good slides, and substantial programming assignments. It also tends to be friendlier to independent learners than many university courses.
 
-This course also has one of best slides, highly recommed
+The main link points to the newest offering. If you want a fully stable version with all lectures, slides, and assignments available from day one, it is often better to pick a past offering from the course archive instead of the current semester.
 
-https://15445.courses.cs.cmu.edu/
+If you want to go further, the advanced follow-up is CMU 15-721 [link](https://15721.courses.cs.cmu.edu/).
 
-note: this link will point to the newest offering but if you want to complete past one cause maybe labs or lecture aren't accesible yet, there is archive page with past offerigs
+If you become interested in LSM-tree-based storage engines and want a practical Rust project, `mini-lsm` is also worth a look [link](https://github.com/skyzh/mini-lsm).
 
-If you find database systems interesting, after that you might want to also take a look at 
-https://15721.courses.cs.cmu.edu/ which is advanced continuation
+## Compilers
 
-If you want to also learn how lsm-tree based databases work, and like programming in rust or you are looking for some project to start your jurney with this language
-https://github.com/skyzh/mini-lsm is worth checking too
+### Writing a C Compiler [link](https://nostarch.com/writing-c-compiler)
 
+I do not have one definitive public course recommendation for compilers. In my own case, I took the subject at university. Public compiler courses often have lectures without accessible projects.
 
-# Compilers
+This book is the best practical resource I would point people to first. Its strength is that it builds a compiler incrementally, so you can make steady progress without needing to understand the entire pipeline up front.
 
-This is one of core topics that i don't actually have one definitive resource, as in my case the course was actually ofered in my uni where we wrote compiler for źi which is modifiex [xi compiler](https://www.cs.cornell.edu/courses/cs4120/2011fa/handouts/language.pdf)
+For language context, here is the Xi language handout that inspired the compiler course I took [link](https://www.cs.cornell.edu/courses/cs4120/2011fa/handouts/language.pdf).
 
-Also despite my best efforts i wasn't able to find good course that offered publicly accesible lectures.
-However there is really cool book from nostarch press that is about building C compiler.
-I only scrolled the book but i really like their approach where you build all parts in incremental way.
-Book can be bought here (link)[https://nostarch.com/writing-c-compiler]
+## Computer networks
 
+### Beej's Guide to Networking Concepts [link](https://beej.us/guide/bgnet0/)
 
-# Computer Networks
+A very accessible introduction to networking ideas if you do not yet have a strong intuition for protocols, addressing, and how machines talk to each other.
 
-great starter are beej guides
+### Beej's Guide to Network Programming [link](https://beej.us/guide/bgnet/)
 
-(Beej's Guide to Networking Concepts
-)[https://beej.us/guide/bgnet0/]
+One of the best practical introductions to socket programming. It helps bridge the gap between networking theory and writing real networked programs in C.
 
-(Beej's Guide to Network Programming
-)
-[https://beej.us/guide/bgnet/]
+Recommended companion textbook: *Computer Networking: A Top-Down Approach* [link](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
+A good starter project after this material is a simple web server in C or C++, beginning with raw TCP sockets and working up to basic HTTP static file serving.
 
-Book
-https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/
+## Deep learning systems
 
+### Deep Learning Systems [link](https://dlsyscourse.org/)
 
-As a project good idea would be to implement simple web server in c/c++ from tcp sockets up to htpp serving
+A strong course on the implementation side of machine learning systems. It focuses on the building blocks behind deep learning frameworks.
 
-# Deep learning systems
+The labs are especially useful because they let you implement core components yourself.
 
-Deep Learning Systems CMU
+### CS336: Language Modeling from Scratch [link](https://cs336.stanford.edu/)
 
-teaches you basic building blocks of deep learning framework
+A more advanced course focused on the systems and engineering required to train modern language models. Public labs cover topics such as tokenization, kernels, training, distributed execution, data preparation, and reinforcement learning.
 
-In labs you will learn how to implement such system yourself
+This is a good option once you already have a foundation in machine learning.
 
-https://dlsyscourse.org/
+## Other resources worth mentioning
 
+### HDLBits [link](https://hdlbits.01xz.net/wiki/Problem_sets)
 
-CS336: Language Modeling from Scratch
+Small hands-on exercises for learning Verilog and getting comfortable with hardware-description languages.
 
-more advanced course focusing on core parts of building blocks of modern LLM training,
+### Unraveling the JPEG [link](https://parametric.press/issue-01/unraveling-the-jpeg/)
 
-publicly available labs focus on tokenization, training, kernels, distributed traing, data preparation and reinforcement learning
+A very readable explanation of how JPEG compression works.
 
-https://cs336.stanford.edu/
+### Web Browser Engineering [link](https://browser.engineering/)
 
-# other topics worth mentioning
+A project-oriented resource that walks through building a small browser and teaches you  about parsing, layout, networking, and rendering along the way.
 
-HDL bits introduction to verilog through small online exercises  https://hdlbits.01xz.net/wiki/Problem_sets
+### Building a Debugger [link](https://nostarch.com/building-a-debugger)
 
-JPEG : https://parametric.press/issue-01/unraveling-the-jpeg/
+A practical systems project in book form. Good if you want to understand, breakpoints, symbol information, and low-level program inspection.
 
-https://browser.engineering/
+### Containers from Scratch [link](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 
-buliding debugger https://nostarch.com/building-a-debugger
-
-containers https://blog.lizzie.io/linux-containers-in-500-loc.html
+A compact introduction to Linux containers through implementation. Good for readers who already know some Unix and want to understand namespaces and isolation more concretely.

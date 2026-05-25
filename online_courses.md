@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "System programming courses"
-author: "Robert"
 permalink: /online-courses/
 ---
 
-I care a lot about open education. This page collects online courses and companion resources that I think are especially useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
+I care a lot about open education. This page collects online courses and companion resources that I think are useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
 
-In general, if your university offers a good version of these subjects, take it. You will usually get better feedback, structure, and accountability. But many schools do not put much emphasis on systems programming, operating systems, databases, compilers, or performance engineering. In that case, the resources below are very good substitutes.
+In general, if your university offers a good version of these subjects, take it. You will usually get better structure, and accountability. But many schools do not put much emphasis on systems programming. In that case, the resources below are very good substitutes.
 
 ## Linux and beginner tooling
 
@@ -49,21 +48,21 @@ A good starter project after this material is a simple web server in C or C++, b
 
 This is one of the best systems courses available online and a very good next step after an introductory computer systems course. You work on BusTub, an educational database system, and implement core pieces of a real database engine.
 
-The course is especially valuable because it combines strong lectures, very good slides, and substantial programming assignments. It also tends to be friendlier to independent learners than many university courses.
+The course combines strong lectures, very good slides, and substantial programming assignments.
 
-The main link points to the newest offering. If you want a fully stable version with all lectures, slides, and assignments available from day one, it is often better to pick a past offering from the course archive instead of the current semester.
+The main link points to the newest offering. If you want full version with all lectures, slides, and assignments available, it is better to pick a past offering from the course archive.
 
-If you want to go further, the advanced follow-up is CMU 15-721 [link](https://15721.courses.cs.cmu.edu/).
+If you want to go further, the advanced follow up is CMU 15-721 [link](https://15721.courses.cs.cmu.edu/).
 
-If you become interested in LSM-tree-based storage engines and want a practical Rust project, `mini-lsm` is also worth a look [link](https://github.com/skyzh/mini-lsm).
+If you want to learn about LSM-tree-based storage engines and want a practical Rust project, `mini-lsm` is also worth a look [link](https://github.com/skyzh/mini-lsm).
 
 ## Compilers
 
 ### Writing a C Compiler [link](https://nostarch.com/writing-c-compiler)
 
-I do not have one definitive public course recommendation for compilers. In my own case, I took the subject at university. Public compiler courses often have lectures without accessible projects, or projects without enough guidance.
+I do not have one definitive public course recommendation for compilers. In my case, I took the subject at university. Public compiler courses often have lectures without accessible projects.
 
-This book is the best practical resource I would point people to first. Its strength is that it builds a compiler incrementally, so you can make steady progress without needing to understand the entire pipeline up front.
+This book is the best practical resource I would suggest. Its strength is that it builds a compiler incrementally, so you can make steady progress without needing to understand the entire pipeline up front.
 
 For language context, here is the Xi language handout that inspired the compiler course I took [link](https://www.cs.cornell.edu/courses/cs4120/2011fa/handouts/language.pdf).
 
@@ -71,7 +70,7 @@ For language context, here is the Xi language handout that inspired the compiler
 
 ### NYCU Operating System Capstone
 
-Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. The labs focus on building a small operating system, which makes this course very valuable if you want hands on OS experience rather than theory alone.
+Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. The labs focus on building a small operating system, which makes this course very valuable.
 
 Useful companion resources:
 
@@ -83,15 +82,15 @@ Bare-metal Raspberry Pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tuto
 
 ### 15-418 / 15-618: Parallel Computer Architecture and Programming
 
-Excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
+Good course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
 
-Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start. GitHub mirrors sometimes also preserve assignment material when the main course page changes.
+Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. 2023 version is good start. GitHub mirrors sometimes also preserve assignment material.
 
 ## Distributed systems
 
 ### MIT 6.824: Distributed Systems [link](http://nil.csail.mit.edu/6.824/2022/)
 
-One of the most famous distributed systems courses for good reason. The lectures are strong, and the labs are even better: you implement the Raft consensus protocol and then build higher-level systems on top of it, including key-value storage.
+One of the most famous distributed systems courses. The lectures and labs are strong: you implement the Raft consensus protocol and then build key/value storage on top of it.
 
 ## Deep learning systems
 
@@ -127,4 +126,4 @@ A practical systems project in book form. Good if you want to understand breakpo
 
 ### Containers from Scratch [link](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 
-A compact introduction to Linux containers through implementation. Good for readers who already know some Unix and want to understand namespaces and isolation.
+A compact introduction to Linux containers through implementation.

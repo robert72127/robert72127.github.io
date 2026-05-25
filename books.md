@@ -5,13 +5,17 @@ author: "Robert"
 permalink: /books/
 ---
 
-Books, textbooks, papers and scripts that i think are worth recommendig. 
+Textbooks on various topics that I enjoyed.
 
 ## Mathematics
+
+The Art and Craft of Problem Solving [link](https://www.goodreads.com/book/show/593458.The_Art_and_Craft_of_Problem_Solving)
 
 First Course in Probability [link](https://www.amazon.com/First-Course-Probability-9th/dp/032179477X)
 
 Introduction to Probability for Computing [link](https://www.cs.cmu.edu/~harchol/Probability/book.html)
+
+Introduction to Probability for Data Science [link](https://probability4datascience.com/)
 
 A Programmer's Introduction to Mathematics [link](https://pimbook.org/)
 
@@ -23,33 +27,21 @@ An Infinitely Large Napkin [link](https://venhance.github.io/napkin/Napkin.pdf)
 
 An Infinite Descent into Pure Mathematics [link](https://infinitedescent.xyz/dl/infdesc.pdf)
 
-The Art and Craft of Problem Solving [link](http://www.gang.umass.edu/~franz/Paul_Zeitz_The_Art_and_Craft_of_Problem_SolvingBookosorg.pdf)
+Introduction to the Theory of Computation [link](https://cs.brown.edu/courses/csci1810/fall-2023/resources/ch2_readings/Sipser_Introduction.to.the.Theory.of.Computation.3E.pdf)
 
-## Physics
-
-Haliday, Resnick, Krane [link](https://www.amazon.com/Physics-1-Robert-Resnick/dp/0471320579)
-
-The Theoretical Minimum [link](https://knzhou.github.io/writing/Minimum.pdf)
-
-Teach Yourself Physics: a travel companion [link](https://www.amazon.com/Teach-Yourself-Physics-travel-companion/dp/3948763003)
-
-How to become a GOOD Theoretical Physicist [link](https://www.goodtheorist.science/index.html)
 ## Computer Science
 
 ### Machine learning
-
-#### Starters:
 
 Grokking Deep Learning [link](https://www.amazon.com/Grokking-Deep-Learning-Andrew-Trask/dp/1617293709)
 
 Deep Learning for Coders [link](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)
 
+The Little Book of Deep Learning [link](https://www.goodreads.com/en/book/show/174612914-the-little-book-of-deep-learning)
+
 Deep Learning with PyTorch [link](https://www.manning.com/books/deep-learning-with-pytorch)
 
 Dive into Deep Learning [link](https://d2l.ai/)
-
-
-#### Cool ones:
 
 Understanding Deep Learning [link](https://udlbook.github.io/udlbook/)
 
@@ -57,16 +49,15 @@ Deep Learning: Foundations and Concepts [link](https://issuu.com/cmb321/docs/dee
 
 The Mathematical Engineering of Deep Learning [link](https://deeplearningmath.org/)
 
-An Introduction to Deep Reinforcement Learning [link](https://arxiv.org/pdf/1811.12560.pdf)
-
-Foundations of Computer Vision [link](https://mitpress.mit.edu/9780262048972/foundations-of-computer-vision/)
-
+Build a Large Language Model (From Scratch) [link](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 
 Tutorial on Diffusion Models for Imaging and Vision [link](https://arxiv.org/abs/2403.18103)
 
-
 ### Compilers
+
 An Incremental Approach to Compiler Construction [link](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
+
+Writing a C Compiler [link](https://nostarch.com/writing-c-compiler)
 
 Modern Compiler Implementation in ML [link](https://www.cs.princeton.edu/~appel/modern/ml/)
 
@@ -86,7 +77,7 @@ Competitive Programmer’s Handbook [link](https://cses.fi/book/book.pdf)
 
 Algorithms [link](https://jeffe.cs.illinois.edu/teaching/algorithms/)
 
-Algorithms: Prallel and Sequential [link](https://www.umut-acar.org/algorithms-book)
+Algorithms: Parallel and Sequential [link](https://www.umut-acar.org/algorithms-book)
 
 Advanced Algorithms and Data Structures [link](https://freecontent.manning.com/marcello-la-rocca-advanced-algorithms-and-data-structures/)
 
@@ -102,7 +93,7 @@ Database System Concepts [link](https://www.amazon.com/Database-System-Concepts-
 
 Designing Data-Intensive Applications [link](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
-### Operation Systems
+### Operating Systems
 
 #### System programming
 
@@ -152,6 +143,14 @@ The Linux Kernel Module Programming Guide [link](https://sysprog21.github.io/lkm
 
 A Heavily Commented Linux Kernel Source Code [link](http://www.oldlinux.org/download/ECLK-5.0-WithCover.pdf)
 
+### Programming Language guides
+
+OCaml Programming: Correct + Efficient + Beautiful [link](https://cs3110.github.io/textbook/ocaml_programming.pdf)
+
+C++ Crash Course [link](https://www.amazon.com/C-Crash-Course-Josh-Lospinoso/dp/1593278888)
+
+Modern C++ Programming [link](https://github.com/federico-busato/Modern-CPP-Programming)
+
 ### Other
 
 CMake hands-on workshop [link](https://enccs.github.io/cmake-workshop/)
@@ -164,28 +163,29 @@ The Art of HPC [link](https://theartofhpc.com/)
 
 Web Browser Engineering [link](https://browser.engineering/)
 
+Building a Debugger [link](https://nostarch.com/building-a-debugger)
+
 Ray Tracing in One Weekend [link](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
 Structure and Interpretation of Computer Programs [link](https://web.mit.edu/6.001/6.037/sicp.pdf)
 
 How to Design Programs [link](https://www.amazon.com/How-Design-Programs-Introduction-Programming/dp/0262534800/ref=pd_bxgy_img_sccl_2/143-0695118-1847207?pd_rd_i=0262534800&psc=1)
 
-Elegant Objects [link](https://www.yegor256.com/elegant-objects.html)
-
 The Little Book of Semaphores [link](https://greenteapress.com/wp/semaphores/)
-
-
-#### Programming Languages
-
-OCaml Programming: Correct + Efficient + Beautiful [link](https://cs3110.github.io/textbook/ocaml_programming.pdf)
-
-C++ Crash Course [link](https://www.amazon.com/C-Crash-Course-Josh-Lospinoso/dp/1593278888)
-
-Modern C++ Programming [link](https://github.com/federico-busato/Modern-CPP-Programming)
 
 ## Biology
 
 Campbell Biology [link](https://www.amazon.com/Campbell-Biology-11th-Lisa-Urry/dp/0134093410/ref=pd_bxgy_img_sccl_1/143-0695118-1847207?pd_rd_i=0134093410&psc=1)
+
+## Physics
+
+Haliday, Resnick, Krane [link](https://www.amazon.com/Physics-1-Robert-Resnick/dp/0471320579)
+
+The Theoretical Minimum [link](https://knzhou.github.io/writing/Minimum.pdf)
+
+Teach Yourself Physics: a travel companion [link](https://www.amazon.com/Teach-Yourself-Physics-travel-companion/dp/3948763003)
+
+How to become a GOOD Theoretical Physicist [link](https://www.goodtheorist.science/index.html)
 
 ## Finance & Economics
 
@@ -197,10 +197,4 @@ Modern Principles of Economics [link](https://www.amazon.com/Modern-Principles-E
 
 Expected Returns: An Investor's Guide to Harvesting Market Rewards [link](https://www.amazon.com/Expected-Returns-Investors-Harvesting-Rewards/dp/1119990726)
 
-The Little Book of Valuation [link](https://www.amazon.com/Little-Book-Valuation-Company-Profit/dp/1118004779)
-
-## Other
-
-Theory of Knowledge [link](https://www.amazon.com/Theory-Knowledge-Third-Nicholas-Alchin/dp/1471804151)
-
-The Ph.D. Grind: A Ph.D. Student Memoir [link](https://www.goodreads.com/en/book/show/15731248)
+Pricing Money [link](https://www.jdawiseman.com/books/pricing-money/Pricing_Money_JDAWiseman.html)

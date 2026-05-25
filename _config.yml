@@ -1,3 +1,13 @@
 theme: minima
-title: My Blog
+title: Robert's Blog
 description: Notes, projects, and thoughts
+
+github_url: "https://github.com/robert72127"
+contact_email: "robert.piotr.orlikowski@gmail.com"
+
+header_pages:
+  - index.md
+  - cv.md
+  - projects.md
+  - online_courses.md
+  - books.md

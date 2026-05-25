@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Online courses"
+title: "Online system programming courses"
 author: "Robert"
 permalink: /online-courses/
 ---
 
 I care a lot about open education. This page collects online courses and companion resources that I think are especially useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
 
-In general, if your university offers a good version of these subjects, take it. You will usually get better feedback, structure, and accountability. But many schools do not put much emphasis on systems programming, operating systems, databases, compilers, or performance engineering. For that case, the resources below are very good substitutes.
+In general, if your university offers a good version of these subjects, take it. You will usually get better feedback, structure, and accountability. But many schools do not put much emphasis on systems programming, operating systems, databases, compilers, or performance engineering. In that case, the resources below are very good substitutes.
 
 ## Linux and beginner tooling
 
 ### The Missing Semester of Your CS Education [link](https://missing.csail.mit.edu/)
 
-A great starting point if you are early in your programming journey. It teaches the practical tools that make everyday work on Unix-like systems much easier: shell usage, editors, version control, debugging, data wrangling, and automation.
+Very good starting point if you are early in your programming journey. It teaches practical tools that make everyday work on Unix like systems much easier: shell usage, editors, version control, debugging, data wrangling, and automation.
 
 ## Computer architecture and systems
 
@@ -23,25 +23,25 @@ One of the best entry points into systems programming. It covers the stack from 
 
 Course labs: [link](https://csapp.cs.cmu.edu/3e/labs.html)
 
-For lectures, archived course pages are often the easiest route. If the main page does not expose a full past offering directly, check the Web Archive for a recent year such as 2023. Some lecture materials and mirrors also show up on GitHub.
+For lectures, archived course pages are often the easiest route. If the main page does not expose a full past offering directly, check the Web Archive for a recent year such as 2023. Some lecture materials and mirrors also show up on GitHub, so it is worth checking there too.
 
 Companion book: *Computer Systems: A Programmer's Perspective* [link](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X)
 
-Another useful companion resource is the Illinois CS 241 system programming coursebook [link](https://raw.githubusercontent.com/illinois-cs241/coursebook/pdf_deploy/main.pdf), which explains many core systems topics in a very approachable way.
+Another useful companion resource is the Illinois CS 241 system programming coursebook [link](https://raw.githubusercontent.com/illinois-cs241/coursebook/pdf_deploy/main.pdf). It explains many core systems topics in a very approachable way.
 
 ## Parallel programming
 
 ### 15-418 / 15-618: Parallel Computer Architecture and Programming
 
-An excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
+Excellent course for learning how modern hardware exposes parallelism and how software can take advantage of it. Expect topics such as SIMD, GPU programming, and distributed approaches like MPI.
 
-Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start, GitHub mirrors sometimes preserve assignment material when the main course page changes.
+Slides and labs are often easiest to find through archived course pages or public mirrors of past offerings. A recent archived year such as 2023 is usually a good place to start. GitHub mirrors sometimes also preserve assignment material when the main course page changes.
 
 ## Operating systems implementation
 
 ### NYCU Operating System Capstone
 
-Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. Labs focus on building a small operating system, which makes it valuable if you want hands-on OS experience rather than theory alone.
+Many operating systems courses have public lectures, but very few make the implementation side accessible to outsiders. The labs focus on building a small operating system, which makes this course very valuable if you want hands on OS experience rather than theory alone.
 
 Useful companion resources:
 
@@ -54,8 +54,6 @@ Bare-metal Raspberry Pi 3 tutorials [link](https://github.com/bztsrc/raspi3-tuto
 ### MIT 6.824: Distributed Systems [link](http://nil.csail.mit.edu/6.824/2022/)
 
 One of the most famous distributed systems courses for good reason. The lectures are strong, and the labs are even better: you implement the Raft consensus protocol and then build higher-level systems on top of it, including key-value storage.
-
-This course gives you real exposure to the kind of failure modes and design tradeoffs that define distributed systems work.
 
 ## Database systems
 
@@ -75,7 +73,7 @@ If you become interested in LSM-tree-based storage engines and want a practical 
 
 ### Writing a C Compiler [link](https://nostarch.com/writing-c-compiler)
 
-I do not have one definitive public course recommendation for compilers. In my own case, I took the subject at university. Public compiler courses often have lectures without accessible projects.
+I do not have one definitive public course recommendation for compilers. In my own case, I took the subject at university. Public compiler courses often have lectures without accessible projects, or projects without enough guidance.
 
 This book is the best practical resource I would point people to first. Its strength is that it builds a compiler incrementally, so you can make steady progress without needing to understand the entire pipeline up front.
 
@@ -85,7 +83,7 @@ For language context, here is the Xi language handout that inspired the compiler
 
 ### Beej's Guide to Networking Concepts [link](https://beej.us/guide/bgnet0/)
 
-A very accessible introduction to networking ideas if you do not yet have a strong intuition for protocols, addressing, and how machines talk to each other.
+Very accessible introduction to networking ideas if you do not yet have a strong intuition for protocols, addressing, and how machines talk to each other.
 
 ### Beej's Guide to Network Programming [link](https://beej.us/guide/bgnet/)
 
@@ -99,7 +97,7 @@ A good starter project after this material is a simple web server in C or C++, b
 
 ### Deep Learning Systems [link](https://dlsyscourse.org/)
 
-A strong course on the implementation side of machine learning systems. It focuses on the building blocks behind deep learning frameworks.
+Strong course on the implementation side of machine learning systems. It focuses on the building blocks behind deep learning frameworks.
 
 The labs are especially useful because they let you implement core components yourself.
 
@@ -107,7 +105,7 @@ The labs are especially useful because they let you implement core components yo
 
 A more advanced course focused on the systems and engineering required to train modern language models. Public labs cover topics such as tokenization, kernels, training, distributed execution, data preparation, and reinforcement learning.
 
-This is a good option once you already have a foundation in machine learning.
+Good option once you already have a foundation in machine learning.
 
 ## Other resources worth mentioning
 
@@ -121,12 +119,12 @@ A very readable explanation of how JPEG compression works.
 
 ### Web Browser Engineering [link](https://browser.engineering/)
 
-A project-oriented resource that walks through building a small browser and teaches you  about parsing, layout, networking, and rendering along the way.
+A project-oriented resource that walks through building a small browser and teaches you about parsing, layout, networking, and rendering along the way.
 
 ### Building a Debugger [link](https://nostarch.com/building-a-debugger)
 
-A practical systems project in book form. Good if you want to understand, breakpoints, symbol information, and low-level program inspection.
+A practical systems project in book form. Good if you want to understand breakpoints, symbol information, and low-level program inspection.
 
 ### Containers from Scratch [link](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 
-A compact introduction to Linux containers through implementation. Good for readers who already know some Unix and want to understand namespaces and isolation more concretely.
+A compact introduction to Linux containers through implementation. Good for readers who already know some Unix and want to understand namespaces and isolation.

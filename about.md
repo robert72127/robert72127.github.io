@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Home"
-author: "Robert"
 permalink: /
 ---
-Hi, My name is Robert Orlikowski
 
-I am programmer interested in machine learning, system programmint and applied math
+Hi, my name is Robert Orlikowski.
+I am a programmer interested in machine learning, systems programming, and applied mathematics.
 
-I'got BSc degree in math and computer science join promgram (ISIM) at the University of Wroclaw. 
+I have a BSc degree in Mathematics and Computer Science from the ISIM joint program at the University of Wrocław.
 
-In my free time, I enjoy playing sports, learning, and digging into open-source projects.
+In my free time, I enjoy playing sports, learning, and exploring open-source projects.

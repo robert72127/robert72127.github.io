@@ -4,21 +4,21 @@ title: "System Programming Courses"
 permalink: /online-courses/
 ---
 
-I care a lot about open education. This page collects online courses and companion resources that I think are useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
+I am big fan of open education. This page collects online courses and companion resources that I think are useful for students who want a stronger systems background, but did not have access to a university with a deep systems curriculum.
 
-In general, if your university offers a good version of these subjects, take it. You will usually get better structure, and accountability. But many schools do not put much emphasis on systems programming. In that case, the resources below are very good substitutes.
+In general, if your university offers a good version of these subjects, take it. You will usually get better structure, and accountability. But many schools do not put much emphasis on systems programming. In that case, the resources below are good substitutes.
 
 ## Linux and beginner tooling
 
 ### The Missing Semester of Your CS Education [link](https://missing.csail.mit.edu/)
 
-Very good starting point if you are early in your programming journey. It teaches practical tools that make everyday work on Unix like systems much easier: shell usage, editors, version control, debugging, data wrangling, and automation.
+Teaches practical tools that make everyday work on Unix like systems easier: shell usage, editors, version control, debugging, data wrangling, and automation.
 
 ## Computer architecture and systems
 
 ### 15-213 / 14-513 / 15-513: Introduction to Computer Systems [link](https://www.cs.cmu.edu/~213/)
 
-One of the best entry points into systems programming. It covers the stack from machine representation and assembly to memory, linking, performance, and user-space Unix programming. If you only take one serious systems course, this is a very strong choice.
+Best entry points into systems programming. It covers the stack from machine representation and assembly to memory, linking, performance, and user-space Unix programming. If you only take one serious systems course, this is a very strong choice.
 
 Course labs: [link](https://csapp.cs.cmu.edu/3e/labs.html)
 

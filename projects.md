@@ -29,6 +29,7 @@ permalink: /projects/
 * Radix kv cache.
 * Chunked prefill, continous batching.
 * Multi process with communication via zmq.
+* Custom Triton kernels and CUDA graph replay on the CUDA backend
 * Fast api server with `GET /v1/models` and `POST /v1/chat/completions`.
 
 #### Raft Consensus Algorithm [link](https://github.com/robert72127/raft)

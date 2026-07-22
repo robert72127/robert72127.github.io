@@ -52,6 +52,8 @@ Build a Large Language Model (From Scratch) [link](https://www.manning.com/books
 
 Tutorial on Diffusion Models for Imaging and Vision [link](https://arxiv.org/abs/2403.18103)
 
+Reinforcement Learning from Human Feedback [link](https://rlhfbook.com/)
+
 ### Compilers
 
 An Incremental Approach to Compiler Construction [link](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf)
